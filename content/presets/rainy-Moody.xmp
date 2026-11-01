@@ -1,0 +1,74 @@
+<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<x:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='XMP Core 5.6'>
+ <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <rdf:Description rdf:about=''
+    xmlns:crs='http://ns.adobe.com/camera-raw-settings/1.0/'
+    crs:PresetType='Normal'
+    crs:Cluster=''
+    crs:UUID='12345678-90ab-cdef-1234-567890abcdef'
+    crs:SupportsAmount='True'
+    crs:SupportsColor='True'
+    crs:SupportsMonochrome='True'
+    crs:SupportsHighDynamicRange='True'
+    crs:SupportsNormalDynamicRange='True'
+    crs:Name='Rainy Moody Preset'>
+    <crs:Exposure2012>-0.40</crs:Exposure2012>
+    <crs:Contrast2012>10</crs:Contrast2012>
+    <crs:Highlights2012>-40</crs:Highlights2012>
+    <crs:Shadows2012>30</crs:Shadows2012>
+    <crs:Whites2012>-20</crs:Whites2012>
+    <crs:Blacks2012>-30</crs:Blacks2012>
+
+    <!-- Tone Curve -->
+    <crs:ToneCurvePV2012>0,0 32,22 64,64 128,128 192,196 255,255</crs:ToneCurvePV2012>
+    <crs:ToneCurvePV2012Red>0,0 255,255</crs:ToneCurvePV2012Red>
+    <crs:ToneCurvePV2012Green>0,0 255,255</crs:ToneCurvePV2012Green>
+    <crs:ToneCurvePV2012Blue>0,0 255,255</crs:ToneCurvePV2012Blue>
+
+    <!-- HSL -->
+    <crs:HueAdjustmentGreen>-15</crs:HueAdjustmentGreen>
+    <crs:SaturationAdjustmentGreen>-20</crs:SaturationAdjustmentGreen>
+    <crs:LuminanceAdjustmentGreen>-10</crs:LuminanceAdjustmentGreen>
+
+    <crs:HueAdjustmentYellow>-20</crs:HueAdjustmentYellow>
+    <crs:SaturationAdjustmentYellow>-30</crs:SaturationAdjustmentYellow>
+    <crs:LuminanceAdjustmentYellow>-15</crs:LuminanceAdjustmentYellow>
+
+    <crs:HueAdjustmentBlue>-20</crs:HueAdjustmentBlue>
+    <crs:SaturationAdjustmentBlue>-40</crs:SaturationAdjustmentBlue>
+    <crs:LuminanceAdjustmentBlue>-10</crs:LuminanceAdjustmentBlue>
+
+    <crs:SaturationAdjustmentOrange>10</crs:SaturationAdjustmentOrange>
+    <crs:LuminanceAdjustmentOrange>5</crs:LuminanceAdjustmentOrange>
+
+    <!-- Split Toning / Color Grading -->
+    <crs:SplitToningShadowHue>190</crs:SplitToningShadowHue>
+    <crs:SplitToningShadowSaturation>20</crs:SplitToningShadowSaturation>
+    <crs:SplitToningHighlightHue>45</crs:SplitToningHighlightHue>
+    <crs:SplitToningHighlightSaturation>10</crs:SplitToningHighlightSaturation>
+    <crs:SplitToningBalance>-10</crs:SplitToningBalance>
+
+    <!-- Sharpening -->
+    <crs:Sharpness>40</crs:Sharpness>
+    <crs:SharpenRadius>1.0</crs:SharpenRadius>
+    <crs:SharpenDetail>25</crs:SharpenDetail>
+    <crs:Masking>50</crs:Masking>
+    <crs:LuminanceSmoothing>15</crs:LuminanceSmoothing>
+
+    <!-- Effects -->
+    <crs:Clarity2012>10</crs:Clarity2012>
+    <crs:Dehaze>-5</crs:Dehaze>
+    <crs:PostCropVignetteAmount>-15</crs:PostCropVignetteAmount>
+
+    <!-- Calibration -->
+    <crs:RedHue>-10</crs:RedHue>
+    <crs:RedSaturation>10</crs:RedSaturation>
+    <crs:GreenHue>10</crs:GreenHue>
+    <crs:GreenSaturation>-5</crs:GreenSaturation>
+    <crs:BlueHue>-15</crs:BlueHue>
+    <crs:BlueSaturation>10</crs:BlueSaturation>
+
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end='w'?>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xmpmeta xmlns="adobe:ns:meta/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/">
+  <rdf:RDF>
+    <rdf:Description crs:PresetType="Normal" crs:Cluster="Custom" crs:UUID="{CINEMATIC-NIGHT-TEAL-ORANGE}" crs:SupportsAmount="True" crs:CameraProfile="Adobe Color" crs:LookTableName="Cinematic Night Teal Orange" crs:ToneCurveName="Custom" crs:Exposure2012="-0.15" crs:Contrast2012="30" crs:Highlights2012="-35" crs:Shadows2012="30" crs:Whites2012="-20" crs:Blacks2012="-15" crs:Clarity2012="15" crs:Vibrance="-10" crs:Saturation="-12" crs:SplitToningShadowHue="190" crs:SplitToningShadowSaturation="35" crs:SplitToningHighlightHue="40" crs:SplitToningHighlightSaturation="30" crs:SplitToningBalance="-5" crs:ParametricShadows="-12" crs:ParametricDarks="-8" crs:ParametricLights="12" crs:ParametricHighlights="18" crs:GrainAmount="0"/>
+  </rdf:RDF>
+</xmpmeta>
