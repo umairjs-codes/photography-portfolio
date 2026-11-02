@@ -3,6 +3,7 @@ import { Playfair_Display, Inter, Caveat } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -43,6 +44,7 @@ export default function RootLayout({
 <main>{children}</main>
 <Footer />
 </SmoothScroll>
+ <SpeedInsights />
       </body>
     </html>
   );
