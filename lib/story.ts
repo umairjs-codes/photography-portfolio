@@ -64,3 +64,10 @@ export const portraits: string[] = [
   // p("portrait-2"),
   // p("portrait-3"),
 ];
+
+export const kit = [
+  { label: "Camera", value: "Sony digital camera", note: "14 years old, and my camera for the past year." },
+  { label: "Editing", value: "Adobe Lightroom", note: "After starting out with Snapseed on my phone." },
+  { label: "Shared on", value: "Instagram & Pexels", note: "@umairpixels_ and my Pexels profile." },
+  { label: "Started with", value: "A phone", note: "Morning runs, right after the first COVID wave." },
+];

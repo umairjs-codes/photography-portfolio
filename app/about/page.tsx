@@ -1,9 +1,9 @@
 import Reveal from "@/components/Reveal";
 import ScrollText from "@/components/ScrollText";
-import CountUp from "@/components/CountUp";
+// import CountUp from "@/components/CountUp";
 import PolaroidLine from "@/components/about/PolaroidLine";
 import Roadmap from "@/components/about/Roadmap";
-import ExpandGallery from "@/components/about/ExpandGallery";
+import NatureMoods from "@/components/about/NatureMoods";
 import ScrollExpandImage from "@/components/about/ScrollExpandImage";
 import DragStrip from "@/components/about/DragStrip";
 import StackCards from "@/components/about/StackCards";
@@ -20,6 +20,7 @@ import {
   festivals,
   styles,
   street,
+  kit,
 } from "@/lib/story";
 
 export const metadata = {
@@ -121,17 +122,17 @@ export default function AboutPage() {
       </section>
 
       {/* 04 Nature */}
+                {/* 04 Nature */}
       <section className="pb-24 md:pb-40">
         <SectionHead
           kicker="Chapter 04"
           title="Nature in four moods"
-          text="Hover or tap a panel to open it."
+          text="Swipe the photo, or tap a mood below."
         />
         <div className="mx-auto mt-12 max-w-7xl px-6 md:px-16">
-          <ExpandGallery shots={nature} />
+          <NatureMoods shots={nature} />
         </div>
       </section>
-
       {/* 05 Landscapes */}
       <section className="pb-24 md:pb-40">
         <SectionHead kicker="Chapter 05" title="Mountains & landscapes" />
@@ -223,24 +224,20 @@ export default function AboutPage() {
         <p className="mb-8 text-xs uppercase tracking-[0.3em] text-accent">The honest bit</p>
         <ScrollText text="I'm not a perfect photographer or a famous one, and I don't have any professional gear. Just a sight of eye that sees the art. I'm the one who loves photography and capturing moments around me." />
 
-        <div className="mt-14 grid grid-cols-2 gap-6 border-t border-white/10 pt-10">
-          <div>
-            <p className="font-display text-5xl text-accent md:text-6xl">
-              <CountUp to={14} />
-            </p>
-            <p className="mt-2 text-xs uppercase tracking-widest text-neutral-400 md:text-sm">
-              Years old, my Sony camera
-            </p>
-          </div>
-          <div>
-            <p className="font-display text-5xl text-accent md:text-6xl">
-              <CountUp to={1} />
-            </p>
-            <p className="mt-2 text-xs uppercase tracking-widest text-neutral-400 md:text-sm">
-              Year shooting with it
-            </p>
-          </div>
+                <div className="mt-14 grid grid-cols-2 gap-3 border-t border-white/10 pt-10 md:grid-cols-4 md:gap-4">
+          {kit.map((k, i) => (
+            <Reveal key={k.label} delay={i * 0.08} className="h-full">
+              <div className="h-full rounded-2xl border border-white/10 bg-white/[0.03] p-4 md:p-5">
+                <p className="text-[10px] uppercase tracking-[0.25em] text-accent md:text-xs">
+                  {k.label}
+                </p>
+                <p className="mt-3 font-display text-xl leading-snug md:text-2xl">{k.value}</p>
+                <p className="mt-2 text-xs text-neutral-400 md:text-sm">{k.note}</p>
+              </div>
+            </Reveal>
+          ))}
         </div>
+           
 
         <div className="mt-12 flex flex-wrap gap-3">
           <a
