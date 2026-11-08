@@ -35,8 +35,8 @@ export default async function Home() {
         <p className="mb-8 text-xs uppercase tracking-[0.3em] text-accent">About</p>
         <ScrollText text="I'm Umair, a photographer from India chasing light across mountains, old streets, rainy days and night skies, then shaping every frame with a cinematic edit." />
         <div className="mt-16 grid grid-cols-3 gap-6 border-t border-white/10 pt-10">
-          <Stat value={351} suffix="K+" label="Pexels views" />
-          <Stat value={99} suffix="+" label="Photos published" />
+          <Stat value={372} suffix="K+" label="Pexels views" />
+          <Stat value={112} suffix="+" label="Photos published" />
           <Stat value={presets.length} suffix="" label="Free presets" />
         </div>
         <Link
